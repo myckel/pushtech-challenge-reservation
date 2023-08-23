@@ -1,0 +1,73 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.login-form {
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.login-button {
+  margin-top: 20px;
+}
+
+.login-input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.reservation-form {
+  max-width: 350px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.reservation-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.reservation-form input,
+.reservation-form select {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.reservation-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0c151c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.reservation-form button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.reservation-form button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
