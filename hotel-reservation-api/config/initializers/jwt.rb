@@ -1,0 +1,2 @@
+JWT_SECRET = 'pushtech'
+JWT_ALGORITHM = 'HS256'
